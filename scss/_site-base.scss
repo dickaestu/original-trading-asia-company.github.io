@@ -403,3 +403,40 @@ h5,
 .carousel-img {
 	height: 420px;
 }
+
+.card-details {
+	border-radius: 6px;
+	padding: 25px;
+
+	p {
+		font-size: 18px;
+	}
+
+	.gallery {
+		.xzoom-container {
+			display: block;
+
+			.xzoom {
+				width: 100%;
+				box-shadow: none;
+				margin-bottom: 10px;
+			}
+
+		}
+
+		.xzoom-thumbs {
+			img {
+				height: 100px;
+				width: 100%;
+				object-fit: cover;
+			}
+		}
+
+		.xactive {
+			border: 3px solid #e7d425 !important;
+			box-shadow: none !important;
+		}
+
+
+	}
+}

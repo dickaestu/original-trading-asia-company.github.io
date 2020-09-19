@@ -389,6 +389,39 @@ h5,
   height: 420px;
 }
 
+.card-details {
+  border-radius: 6px;
+  padding: 25px;
+}
+
+.card-details p {
+  font-size: 18px;
+}
+
+.card-details .gallery .xzoom-container {
+  display: block;
+}
+
+.card-details .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.card-details .gallery .xzoom-thumbs img {
+  height: 100px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-details .gallery .xactive {
+  border: 3px solid #e7d425 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 /* Navbar */
 .site-navbar {
   margin-bottom: 0px;
@@ -2297,6 +2330,11 @@ h5,
 .team-member:hover .social {
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
+}
+
+.team-member img {
+  height: 250px;
+  width: 100%;
 }
 
 .custom-direction {
